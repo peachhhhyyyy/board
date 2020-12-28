@@ -89,27 +89,27 @@ public class BoardServletContentPool extends HttpServlet {
 				pw.println("<div style='max-width:600px;margin:0 auto;text-align:center;'>");
 				pw.println("<table border='2' cellpadding='7' cellspacing='2' width='600px'>");
 				pw.println("<tr>");
-				pw.println("<td>글번호</td>");
+				pw.println("<td style='width:100px;'>글번호</td>");
 				pw.println("<td>"+seq+"</td>");
 				pw.println("</tr>");
 
 				pw.println("<tr>");
-				pw.println("<td>글쓴이</td>");
+				pw.println("<td style='width:100px;'>글쓴이</td>");
 				pw.println("<td>"+writer+"</td>");
 				pw.println("</tr>");
 				
 				pw.println("<tr>");
-				pw.println("<td>이메일</td>");
+				pw.println("<td style='width:100px;'>이메일</td>");
 				pw.println("<td>"+email+"</td>");
 				pw.println("</tr>");
 
 				pw.println("<tr>");
-				pw.println("<td>글제목</td>");
+				pw.println("<td style='width:100px;'>글제목</td>");
 				pw.println("<td>"+subject+"</td>");
 				pw.println("</tr>");
 
 				pw.println("<tr>");
-				pw.println("<td>글내용</td>");
+				pw.println("<td style='width:100px;'>글내용</td>");
 				pw.println("<td>"+content+"</td>");
 				pw.println("</tr>");
 

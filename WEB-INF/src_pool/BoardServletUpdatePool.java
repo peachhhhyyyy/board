@@ -109,22 +109,22 @@ public class BoardServletUpdatePool extends HttpServlet {
 					pw.println("<div style='text-align:center;max-width:600px;margin:0 auto;'>");
 					pw.println("<table style='width:600px;'>");
 					pw.println("<tr>");
-					pw.println("<td style='width:20%;' align='center'>글쓴이</td>");
+					pw.println("<td style='width:100px;' align='center'>글쓴이</td>");
 					pw.println("<td><input name='writer' value='"+writer+"' readonly='readonly' size='67'/></td>");
 					pw.println("</tr>");
 
 					pw.println("<tr>");
-					pw.println("<td align='center'>글쓴이</td>");
+					pw.println("<td style='width:100px;' align='center'>글쓴이</td>");
 					pw.println("<td><input name='email' value='"+email+"' size='67'/></td>");
 					pw.println("</tr>");
 
 					pw.println("<tr>");
-					pw.println("<td align='center'>글제목</td>");
+					pw.println("<td style='width:100px;' align='center'>글제목</td>");
 					pw.println("<td><input name='subject' value='"+subject+"' size='67'/></td>");
 					pw.println("</tr>");
 
 					pw.println("<tr>");
-					pw.println("<td>글내용</td>");
+					pw.println("<td style='width:100px;' align='center'>글내용</td>");
 					pw.println("<td><textarea id='ta' name='content' style='width:-webkit-fill-available;min-height:100px;resize:none;'>"+content+"</textarea></td>");
 					pw.println("</tr>");
 
